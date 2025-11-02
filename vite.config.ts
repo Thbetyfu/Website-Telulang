@@ -52,6 +52,15 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      chunkSizeWarningLimit: 1000,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'three': ['three'],
+            'react-vendor': ['react', 'react-dom'],
+          },
+        },
+      },
     },
     server: {
       port: 3000,
