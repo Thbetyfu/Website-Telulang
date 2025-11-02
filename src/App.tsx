@@ -157,7 +157,7 @@ export default function App() {
       <TeamSection members={teamMembers} />
 
       <TestimonialSection
-        quote="Tolong anukan kodingannya biar gak itu itu banget lah"
+        quote="If you are not willing to risk the unusual, you will have to settle for the ordinary."
         author="TELULANG"
         role="Bandung Indonesia"
         company="Telkom University"
