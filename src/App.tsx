@@ -151,38 +151,40 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black antialiased">
-      <HeroSection
-        title="TELULANG"
-        secondaryTitle="TELKOM UNIVERSITY PETUALANG"
-        subtitle="Tim inovator Telkom University yang mentransformasi ide kompleks menjadi solusi digital yang bermakna."
-        heroImage="https://images.unsplash.com/photo-1730830741396-ffb85bb2e983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwaW50ZXJmYWNlJTIwc2NyZWVufGVufDF8fHx8MTc2MTkxMzQ4MXww&ixlib=rb-4.1.0&q=80&w=1080"
-      />
+      <div className="mx-3 md:mx-0">
+        <HeroSection
+          title="TELULANG"
+          secondaryTitle="TELKOM UNIVERSITY PETUALANG"
+          subtitle="Tim inovator Telkom University yang mentransformasi ide kompleks menjadi solusi digital yang bermakna."
+          heroImage="https://images.unsplash.com/photo-1730830741396-ffb85bb2e983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwaW50ZXJmYWNlJTIwc2NyZWVufGVufDF8fHx8MTc2MTkxMzQ4MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        />
 
-      <MetadataSection items={metadata} />
+        <MetadataSection items={metadata} />
 
-      <IntroSection title="Tentang Kami" paragraphs={introParagraphs} />
+        <IntroSection title="Tentang Kami" paragraphs={introParagraphs} />
 
-      <FeaturesSection features={features} />
+        <FeaturesSection features={features} />
 
-      <Innovation3DSection data={innovation3D} />
+        <Innovation3DSection data={innovation3D} />
 
-      <AchievementsSection achievements={achievements} />
+        <AchievementsSection achievements={achievements} />
 
-      <TeamSection members={teamMembers} />
+        <TeamSection members={teamMembers} />
 
-      <TestimonialSection
-        quote="If you are not willing to risk the unusual, you will have to settle for the ordinary."
-        author="TELULANG"
-        role="Bandung Indonesia"
-        company="Telkom University"
-      />
+        <TestimonialSection
+          quote="If you are not willing to risk the unusual, you will have to settle for the ordinary."
+          author="TELULANG"
+          role="Bandung Indonesia"
+          company="Telkom University"
+        />
 
-      <CTASection
-        title="Bergabunglah dalam Petualangan Inovasi Kami"
-        description="Apakah Anda siap menjadi bagian dari eksplorasi di wilayah yang belum terpetakan? TELULANG mengundang Anda untuk berkolaborasi dalam mentransformasi ide-ide revolusioner menjadi solusi yang berdampak global. Mari bersama-sama menciptakan gelombang inovasi dari Bandung untuk dunia."
-        primaryButtonText="Bergabung dengan TELULANG"
-        secondaryButtonText="Pelajari Lebih Lanjut"
-      />
+        <CTASection
+          title="Bergabunglah dalam Petualangan Inovasi Kami"
+          description="Apakah Anda siap menjadi bagian dari eksplorasi di wilayah yang belum terpetakan? TELULANG mengundang Anda untuk berkolaborasi dalam mentransformasi ide-ide revolusioner menjadi solusi yang berdampak global. Mari bersama-sama menciptakan gelombang inovasi dari Bandung untuk dunia."
+          primaryButtonText="Bergabung dengan TELULANG"
+          secondaryButtonText="Pelajari Lebih Lanjut"
+        />
+      </div>
     </div>
   );
 }

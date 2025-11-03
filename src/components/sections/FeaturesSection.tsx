@@ -18,7 +18,7 @@ export function FeaturesSection({ features }: FeaturesSectionProps) {
       {features.map((feature, index) => (
         <div
           key={index}
-          className="mx-auto max-w-7xl px-6 py-20 md:px-16 lg:px-32"
+          className="mx-auto max-w-7xl px-3 md:px-16 lg:px-32 py-20"
         >
           <div
             className={`grid items-center gap-16 lg:grid-cols-2 lg:gap-20 ${

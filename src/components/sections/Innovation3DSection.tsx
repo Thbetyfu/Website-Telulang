@@ -34,7 +34,7 @@ const getColorClass = (color: string): string => {
 
 export function Innovation3DSection({ data }: Innovation3DSectionProps) {
   return (
-    <section className="py-20 px-30 md:px-12 lg:px-20 bg-neutral-950">
+    <section className="py-20 px-3 md:px-12 lg:px-20 bg-neutral-950">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

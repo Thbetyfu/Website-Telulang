@@ -34,7 +34,7 @@ export function HeroSection({ title, secondaryTitle, subtitle, heroImage }: Hero
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex h-full flex-col justify-end px-6 pb-32 md:px-16 lg:px-32">
+      <div className="relative z-10 flex h-full flex-col justify-end px-3 md:px-16 lg:px-32 pb-32">
         <motion.div 
           className="max-w-6xl"
           initial={{ opacity: 0, y: 40 }}
@@ -42,7 +42,7 @@ export function HeroSection({ title, secondaryTitle, subtitle, heroImage }: Hero
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <motion.h1 
-            className="mb-4 text-5xl md:text-7xl lg:text-8xl text-white tracking-tight"
+            className="mb-4 text-4xl md:text-7xl lg:text-8xl text-white tracking-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}

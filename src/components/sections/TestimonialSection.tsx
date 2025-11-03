@@ -10,7 +10,7 @@ interface TestimonialSectionProps {
 
 export function TestimonialSection({ quote, author, role, company }: TestimonialSectionProps) {
   return (
-    <section className="bg-black px-6 py-40 md:px-16 lg:px-32 relative overflow-hidden">
+    <section className="bg-black px-3 md:px-16 lg:px-32 py-40 relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-neutral-950 via-black to-neutral-950 opacity-50" />
       

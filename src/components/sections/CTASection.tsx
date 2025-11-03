@@ -16,7 +16,7 @@ export function CTASection({
   secondaryButtonText,
 }: CTASectionProps) {
   return (
-    <section className="relative bg-gradient-to-b from-black via-neutral-950 to-black px-6 py-40 md:px-16 lg:px-32 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-black via-neutral-950 to-black px-3 md:px-16 lg:px-32 py-40 overflow-hidden">
       {/* Animated Background Elements */}
       <motion.div
         className="absolute top-1/3 left-1/3 h-96 w-96 rounded-full bg-neutral-800/20 blur-3xl"

@@ -12,7 +12,7 @@ interface AchievementsSectionProps {
 
 export function AchievementsSection({ achievements }: AchievementsSectionProps) {
   return (
-    <section className="bg-neutral-950 px-6 py-40 md:px-16 lg:px-32">
+    <section className="bg-neutral-950 px-3 md:px-16 lg:px-32 py-40">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <motion.div

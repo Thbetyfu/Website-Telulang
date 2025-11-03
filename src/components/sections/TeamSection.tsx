@@ -22,7 +22,7 @@ export function TeamSection({ members }: TeamSectionProps) {
   const bottomRow = members.slice(4);
 
   return (
-    <section className="bg-black px-6 py-40 md:px-16 lg:px-32">
+    <section className="bg-black px-3 md:px-16 lg:px-32 py-40">
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <motion.div

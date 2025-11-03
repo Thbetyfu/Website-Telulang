@@ -8,8 +8,7 @@ interface IntroSectionProps {
 
 export function IntroSection({ title, paragraphs }: IntroSectionProps) {
   return (
-    <section className="bg-black px-50
-     py-32 md:px-16 lg:px-32 relative overflow-hidden min-h-screen">
+    <section className="bg-black px-3 md:px-16 lg:px-32 py-32 relative overflow-hidden min-h-screen">
       {/* PixelBlast Background Effect - Full Height */}
       <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
         <PixelBlast
@@ -43,7 +42,7 @@ export function IntroSection({ title, paragraphs }: IntroSectionProps) {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl text-white mb-16 tracking-tight">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl text-white mb-16 tracking-tight">
             {title}
           </h2>
         </motion.div>

@@ -11,7 +11,7 @@ interface MetadataSectionProps {
 
 export function MetadataSection({ items }: MetadataSectionProps) {
   return (
-    <section className="bg-black px-6 py-20 md:px-16 lg:px-32">
+    <section className="bg-black px-3 md:px-16 lg:px-32 py-20">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-2 gap-8 border-t border-neutral-800/50 pt-16 md:grid-cols-4 lg:gap-12">
           {items.map((item, index) => (
