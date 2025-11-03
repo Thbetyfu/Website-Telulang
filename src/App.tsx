@@ -102,7 +102,7 @@ export default function App() {
     {
       name: 'Thoriq',
       role: 'CEO',
-      image: 'https://images.unsplash.com/photo-1629507208649-70919ca33793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzc21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTg4NzYzNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/ThoriqPose.JPG?updatedAt=1762182365695',
       bio: 'Thoriq adalah perekat yang menyatukan para penjelajah ini. Dia bertanggung jawab untuk membangun budaya kolaborasi yang kuat dan secara konstan mendorong tim untuk menantang status quo',
       email: 'thoriq.a.taqy@gmail.com',
       linkedin: 'https://linkedin.com',
@@ -112,7 +112,7 @@ export default function App() {
     {
       name: 'Dani',
       role: 'CTO',
-      image: 'https://images.unsplash.com/photo-1758691737387-a89bb8adf768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwZXhlY3V0aXZlJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzYxODQ1OTA0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/DaniPose1.JPG?updatedAt=1762182364335',
       bio: 'Arsitek Teknis utama TELULANG, yang menerjemahkan visi kami menjadi fondasi digital yang kokoh. Dia merancang seluruh arsitektur solusi kami, memastikan setiap inovasi tidak hanya brilian secara konseptual, tetapi juga skalabel, aman,',
       email: 'dani@company.com',
       linkedin: 'https://linkedin.com',
@@ -121,7 +121,7 @@ export default function App() {
     {
       name: 'Affan',
       role: 'CIO',
-      image: 'https://images.unsplash.com/photo-1742119971773-57e0131095b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB0ZWFtJTIwbWVtYmVyfGVufDF8fHx8MTc2MTkxMzc2Mnww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/AffanPose.JPG?updatedAt=1762182364388',
       bio: 'Arsitek Sistem kami, pilar yang memastikan seluruh ekosistem digital TELULANG beroperasi dengan presisi. Dia bertanggung jawab atas alur kerja (workflow) tim, integritas data, dan efisiensi operasional',
       email: 'affan@company.com',
       linkedin: 'https://linkedin.com',
@@ -131,7 +131,7 @@ export default function App() {
     {
       name: 'Rifky',
       role: 'CPO',
-      image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NjE4NzIyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/RifkyPose.JPG?updatedAt=1762182364366',
       bio: 'Experience Architect kami, Rifky adalah desainer utama dari setiap perjalanan pengguna. Dia memimpin strategi produk dan memastikan bahwa setiap touchpoint tidak hanya fungsional, tetapi juga bermakna',
       email: 'rifky@company.com',
       linkedin: 'https://linkedin.com',
@@ -140,7 +140,7 @@ export default function App() {
     {
       name: 'Ibnu Hafidz',
       role: 'Full Stack Developer',
-      image: 'https://images.unsplash.com/photo-1689218742357-b0bbfadf0f1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjE4OTc3MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/IbnuPose.JPG?updatedAt=1762189379654',
       bio: 'eksekutor teknis inti tim. Dia adalah engineer yang mengubah blueprint arsitektur kami menjadi produk fungsional.',
       email: 'ibnu@company.com',
       linkedin: 'https://linkedin.com',

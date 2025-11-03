@@ -48,7 +48,7 @@ export function TeamMemberCard({ member, index }: TeamMemberCardProps) {
               <ImageWithFallback
                 src={member.image}
                 alt={member.name}
-                className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                className="h-full w-full object-cover object-bottom transition-transform duration-500 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/50 to-transparent" />
             </div>
