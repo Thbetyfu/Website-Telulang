@@ -78,7 +78,7 @@ export function OBJModelViewer() {
         object.traverse((child) => {
           if (child instanceof THREE.Mesh) {
             child.material = new THREE.MeshStandardMaterial({
-              color: 0x00d4ff,
+              color: 0xEF4444,
               metalness: 0.7,
               roughness: 0.2,
               envMapIntensity: 1,
