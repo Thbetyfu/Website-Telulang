@@ -44,7 +44,7 @@ export function TeamMemberCard({ member, index }: TeamMemberCardProps) {
         >
           <div className="relative h-full">
             {/* Image */}
-            <div className="relative h-64 overflow-hidden">
+            <div className="relative h-96 overflow-hidden">
               <ImageWithFallback
                 src={member.image}
                 alt={member.name}
