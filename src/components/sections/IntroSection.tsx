@@ -9,8 +9,8 @@ interface IntroSectionProps {
 export function IntroSection({ title, paragraphs }: IntroSectionProps) {
   return (
     <section className="bg-black px-3 md:px-16 lg:px-32 py-32 relative overflow-hidden min-h-screen">
-      {/* PixelBlast Background Effect - Full Height */}
-      <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+      {/* PixelBlast Background Effect - Centered with limited width */}
+      <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: '0%', zIndex: 0 }}>
         <PixelBlast
           variant="circle"
           pixelSize={6}
