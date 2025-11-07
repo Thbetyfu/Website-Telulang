@@ -48,30 +48,30 @@ export default function App() {
       title: 'Dampak Global & Prestasi',
       description:
         'Sebagai duta Telkom University di panggung global, kami tidak berhenti pada pencapaian lokal. Misi kami melampaui perolehan trofi - kami berkomitmen membuktikan bahwa petualangan ide yang dimulai di kampus ini mampu menciptakan gelombang dampak yang diakui dunia. Setiap proyek adalah langkah menuju visi menjadi tolak ukur inovasi.',
-      image: 'https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxODgwMjM1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/Prestasi3.svg?updatedAt=1762531525093',
       imagePosition: 'left' as const,
     },
   ];
 
   const achievements = [
     {
-      image: 'https://images.unsplash.com/photo-1759446334429-bb1f2d1d9f13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waHklMjBhd2FyZCUyMGFjaGlldmVtZW50fGVufDF8fHx8MTc2MTkxODUzMXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/LogoTelulangSVG.svg?updatedAt=1762527850397',
       alt: 'Best Innovation Award 2024',
     },
     {
-      image: 'https://images.unsplash.com/photo-1758691737138-7b9b1884b1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHN1Y2Nlc3MlMjBjZWxlYnJhdGlvbnxlbnwxfHx8fDE3NjE4Mjg3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/Prestasi1.svg?updatedAt=1762531269223',
       alt: 'Team Excellence Recognition',
     },
     {
-      image: 'https://images.unsplash.com/photo-1661347998996-dcf102498c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwY29tcGFueSUyMGxvZ298ZW58MXx8fHwxNzYxODM4MzM1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/Prestasi2.svg?updatedAt=1762531368114',
       alt: 'Partnership with Leading Tech Companies',
     },
     {
-      image: 'https://images.unsplash.com/photo-1752937326758-f130e633b422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjZXJ0aWZpY2F0ZSUyMGFjaGlldmVtZW50fGVufDF8fHx8MTc2MTgwMjU3MHww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/Prestasi3.svg?updatedAt=1762531525093',
       alt: 'Professional Certification',
     },
     {
-      image: 'https://images.unsplash.com/photo-1739300293390-da9b6b474ed9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aW5uaW5nJTIwdGVhbSUyMGNlbGVicmF0aW9ufGVufDF8fHx8MTc2MTkxODUzM3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/2l9ibynmn0/prestasi6.svg?updatedAt=1762532625424',
       alt: 'Championship Victory',
     },
     {
