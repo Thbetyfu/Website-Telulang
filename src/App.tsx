@@ -19,6 +19,7 @@ export default function App() {
   const introParagraphs = [
     'Kami adalah TELULANG, tim inovasi unggulan Telkom University. Kami menghidupi filosofi "PETUALANG"sebuah keyakinan bahwa inovasi sejati tidak lahir dari jalan yang aman, melainkan dari eksplorasi di wilayah yang belum terpetakan. Sebagai penjelajah di dunia ide, kami adalah kolektif yang berani menantang status quo dan mentransformasi konsep abstrak menjadi solusi nyata yang berdampak. Petualangan kami adalah sebuah pencarian abadi',
     'Pencarian abadi ini menuntut lebih dari sekadar keberanian ia menuntut metodologi yang presisi. Kekuatan kami adalah sinergi disiplin antara tiga pilar inti: wawasan strategis yang tajam, empati desain yang mendalam, dan eksekusi teknis tanpa kompromi. Kami terobsesi dengan proses iterasi sebuah komitmen untuk terus-menerus menguji, beradaptasi dan menyempurnakan setiap detail. Kami tidak berhenti saat sebuah solusi berhasil; kami berhenti saat solusi itu telah menetapkan standar baru.',
+    'Pada akhirnya, kami bukan sekadar tim kompetisi; kami adalah duta. Misi kami melampaui perolehan trofi, karena kami mengemban ambisi kolektif untuk membawa standar keunggulan dan semangat inovasi Telkom University ke panggung global. Kami di sini untuk bersaing, berprestasi, dan membuktikan bahwa petualangan ide yang kami mulai di kampus ini mampu menciptakan gelombang dampak yang diakui dunia.',
   ];
 
   const features = [
@@ -26,28 +27,28 @@ export default function App() {
       title: 'Eksplorasi & Riset Mendalam',
       description:
         'Kami mengembangkan metodologi riset yang komprehensif untuk memahami permasalahan dari berbagai sudut pandang. Dengan pendekatan etnografi digital, analisis kompetitif, dan user journey mapping, kami mampu mengidentifikasi peluang inovasi yang tersembunyi dan menghasilkan insight yang actionable untuk setiap tahap pengembangan produk.',
-      image: 'https://images.unsplash.com/photo-1760931969401-9bd6ee902798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwQUklMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxOTEzNDgwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://ik.imagekit.io/telulang/Team_Gacor.jpg?updatedAt=1762182369917',
       imagePosition: 'right' as const,
     },
     {
       title: 'Inovasi Berkelanjutan',
       description:
         'Kami menerapkan metodologi yang presisi dalam setiap tahap pengembangan. Dengan sinergi antara wawasan strategis yang tajam, empati desain yang mendalam, dan eksekusi teknis tanpa kompromi, kami menciptakan solusi yang tidak hanya memenuhi kebutuhan saat ini, tetapi juga menetapkan standar baru dalam industri teknologi.',
-      image: 'https://ik.imagekit.io/telulang/Team_formal.jpg?updatedAt=1762182368680',
+      image: 'https://ik.imagekit.io/telulang/Team_nonformal.jpg?updatedAt=1762182369321',
       imagePosition: 'left' as const,
     },
     {
       title: 'Kolaborasi Tim yang Solid',
       description:
-        'Sebagai kolektif yang berani menantang status quo, kami membangun sinergi disiplin dalam setiap proyek. Tim TELULANG bekerja dengan prinsip transparansi, saling menginspirasi, dan komitmen bersama.',
-      image: 'https://ik.imagekit.io/telulang/Team_nonformal.jpg?updatedAt=1762182369321',
+        'Sebagai kolektif yang berani menantang status quo, kami membangun sinergi disiplin dalam setiap proyek. Tim TELULANG bekerja dengan prinsip transparansi, saling menginspirasi, dan komitmen bersama untuk mentransformasi konsep abstrak menjadi solusi nyata yang berdampak. Setiap anggota adalah petualang ide yang berkontribusi unik dalam pencarian inovasi.',
+      image: 'https://ik.imagekit.io/telulang/Team_formal.jpg?updatedAt=1762182368680',
       imagePosition: 'right' as const,
     },
     {
       title: 'Dampak Global & Prestasi',
       description:
         'Sebagai duta Telkom University di panggung global, kami tidak berhenti pada pencapaian lokal. Misi kami melampaui perolehan trofi - kami berkomitmen membuktikan bahwa petualangan ide yang dimulai di kampus ini mampu menciptakan gelombang dampak yang diakui dunia. Setiap proyek adalah langkah menuju visi menjadi tolak ukur inovasi.',
-      image: 'https://ik.imagekit.io/telulang/Team_Gacor.jpg?updatedAt=1762182369917',
+      image: 'https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzYxODgwMjM1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       imagePosition: 'left' as const,
     },
   ];
@@ -92,7 +93,7 @@ export default function App() {
     title: 'Eksplorasi Dimensi Inovasi Baru',
     description: 'TELULANG mengintegrasikan teknologi 3D dan interactive design untuk menciptakan pengalaman yang menghubungkan dunia digital dengan realitas yang bermakna.',
     contentTitle: 'Filosofi Logo TELULANG',
-    contentDescription: 'Logo TELULANG bukan sekadar identitas visual, tetapi representasi dari filosofi kami sebagai petualang inovasi. Setiap elemen dirancang dengan cermat untuk mencerminkan perpaduan antara eksplorasi berani (petualang) dan standar keunggulan Telkom University.',
+    contentDescription: 'Logo TELULANG bukan sekadar identitas visual, tetapi representasi dari filosofi kami sebagai petualang inovasi. Setiap elemen dirancang dengan cermat untuk mencerminkan perpaduan antara eksplorasi berani (petualang) dan standar keunggulan Telkom University. Desain kami menggabungkan geometri modern dengan sentuhan organik, simbolisasi bahwa inovasi sejati lahir dari keseimbangan antara presisi teknis dan kreativitas tanpa batas. Warna-warna yang kami pilih mewakili energi, pertumbuhan, dan transformasi digital yang dinamis. Melalui logo ini, kami mengundang setiap orang untuk menjadi bagian dari eksplorasi di wilayah yang belum terpetakan, menciptakan dampak yang melampaui batasan konvensional.',
     features: [
     ],
   };
@@ -155,7 +156,7 @@ export default function App() {
           title="TELULANG"
           secondaryTitle="TELKOM UNIVERSITY PETUALANG"
           subtitle="Tim inovator Telkom University yang mentransformasi ide kompleks menjadi solusi digital yang bermakna."
-          heroImage="https://images.unsplash.com/photo-1730830741396-ffb85bb2e983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwaW50ZXJmYWNlJTIwc2NyZWVufGVufDF8fHx8MTc2MTkxMzQ4MXww&ixlib=rb-4.1.0&q=80&w=1080"
+          heroImage="https://ik.imagekit.io/telulang/Team_Gacor.jpg?updatedAt=1762182369917"
         />
 
         <MetadataSection items={metadata} />
@@ -179,7 +180,7 @@ export default function App() {
 
         <CTASection
           title="Bergabunglah dalam Petualangan Inovasi Kami"
-          description="Apakah Anda siap menjadi bagian dari eksplorasi di wilayah yang belum terpetakan? TELULANG mengundang Anda untuk berkolaborasi dalam mentransformasi ide-ide revolusioner menjadi solusi yang berdampak global"
+          description="Apakah Anda siap menjadi bagian dari eksplorasi di wilayah yang belum terpetakan? TELULANG mengundang Anda untuk berkolaborasi dalam mentransformasi ide-ide revolusioner menjadi solusi yang berdampak global. Mari bersama-sama menciptakan gelombang inovasi dari Bandung untuk dunia."
           primaryButtonText="Bergabung dengan TELULANG"
           secondaryButtonText="Pelajari Lebih Lanjut"
         />

@@ -24,8 +24,6 @@ export function HeroSection({ title, secondaryTitle, subtitle, heroImage }: Hero
           src={heroImage}
           alt="Hero"
           className="h-full w-full object-cover opacity-60"
-          loading="eager"
-          decoding="sync"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black" />
       </motion.div>

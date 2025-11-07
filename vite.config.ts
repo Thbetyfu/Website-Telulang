@@ -53,26 +53,11 @@
       target: 'esnext',
       outDir: 'build',
       chunkSizeWarningLimit: 1000,
-      minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true,
-        },
-      },
       rollupOptions: {
         output: {
           manualChunks: {
             'three': ['three'],
             'react-vendor': ['react', 'react-dom'],
-            'ui-components': [
-              '@radix-ui/react-accordion',
-              '@radix-ui/react-alert-dialog',
-              '@radix-ui/react-avatar',
-              '@radix-ui/react-checkbox',
-              '@radix-ui/react-dialog',
-            ],
-            'animation': ['motion', 'framer-motion'],
           },
         },
       },

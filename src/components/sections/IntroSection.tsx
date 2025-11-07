@@ -8,9 +8,17 @@ interface IntroSectionProps {
 
 export function IntroSection({ title, paragraphs }: IntroSectionProps) {
   return (
-    <section className="bg-black px-3 md:px-16 lg:px-32 py-32 relative overflow-hidden min-h-screen">
-      {/* PixelBlast Background Effect - Centered with limited width */}
-      <div style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: '0%', zIndex: 0 }}>
+    <section className="bg-black relative overflow-hidden min-h-screen">
+      {/* PixelBlast Background Effect - Full Viewport Width */}
+      <div style={{ 
+        width: '100vw', 
+        height: '100vw', 
+        position: 'absolute', 
+        top: 0, 
+        left: '50%',
+        transform: 'translateX(-50%)',
+        zIndex: 0 
+      }}>
         <PixelBlast
           variant="circle"
           pixelSize={6}
@@ -35,7 +43,7 @@ export function IntroSection({ title, paragraphs }: IntroSectionProps) {
       </div>
 
       {/* Content */}
-      <div className="mx-auto max-w-5xl relative z-10">
+      <div className="mx-auto max-w-5xl relative z-10 px-3 md:px-16 lg:px-32 py-32">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
